@@ -18,7 +18,7 @@ class _TabBarSample2State extends State<TabBarSample2> {
             body: NestedScrollView(
           headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
             return <Widget>[
-              new SliverAppBar(
+              const SliverAppBar(
                 title: const Text("tab bar demo"),
                 pinned: true,
                 floating:true,
